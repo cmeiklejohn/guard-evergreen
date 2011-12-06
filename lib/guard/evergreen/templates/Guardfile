@@ -1,0 +1,3 @@
+guard 'evergreen' do 
+  watch(%r{^spec/javascripts/.+_spec\.js$})
+end

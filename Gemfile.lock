@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    guard-evergreen (0.0.1)
+    guard-evergreen (0.0.2)
       evergreen
       guard
       rake

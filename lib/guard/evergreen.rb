@@ -9,6 +9,8 @@ module Guard
     autoload :Runner,   'guard/evergreen/runner'
     autoload :Notifier, 'guard/evergreen/notifier'
 
+    attr_reader :runner
+
     def initialize(watchers = [], options = {})
       super
 
